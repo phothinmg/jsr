@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="stylesheet" href="./src/jsr.css">
+    <title>JSR</title>
+    <script>
+        if (performance.navigation.type === 1) {
+          window.location.replace("/");
+        }
+    </script>
+</head>
+<body>
+    <main>
+   <!-- nav start -->
+   <div class="nav">
+    <div class="nav-l">
+        <a href="/"  class="nav-a navLinks"  accesskey = "ho" >Home</a>
+        <a href="/about" class="nav-a navLinks"  accesskey = "ab" >About</a>
+        <a href="/blog/posts" class="nav-a navLinks" accesskey = "bl"  >Blog</a>
+   </div>
+    <script>
+        function toogleD(){var a = document.querySelector('html');a.setAttribute('data-theme','dark');}
+        function toogle(){var a = document.querySelector('html');a.setAttribute('data-theme','');}
+    </script>
+    <div class="nav-r">
+        <img src="/light.svg" alt="light" width="20" height="20" onclick="toogle()" style="margin-right: 10px;" class="img">
+        <img src="/dark.svg" alt="dark"  width="20" height="20"  onclick="toogleD()" class="img">
+    </div>
+</div>
+<!-- nav end -->
+<!-- app start -->
+    <div id="app"></div>
+    <script type="module" src="./src/router.js"></script>
+<!-- app end -->
+    </main>
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+
+</body>
+</html>
