@@ -14,11 +14,19 @@ const home = `
 </ul>
 <br>
 </fieldset>
+<br><hr>
+<br>
+
+<a href = "https://github.com/phothinmg/jsr" class="ha" ><img src="/github.svg"> Git-Repo </a>
+<br><br><hr>
+<br>
+<p class="fp">Generated with HTML , CSS , Javascript and Markdown. Power by Vite.</p>
 
 `;
 
 const about = `
-<h1>About</h1>
+<h3>About</h3>
+<p> This is about page</p>
 `;
 
 export {home,about}

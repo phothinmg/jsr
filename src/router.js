@@ -47,4 +47,5 @@ const Pages = {
   "/blog/posts": new Router(blog.posts),
   "/blog/postOne": new Router(blog.postOne),
   "/blog/postTwo": new Router(blog.postTwo),
+  "/blog/md": new Router(blog.md),
 };
