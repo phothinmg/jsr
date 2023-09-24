@@ -4,7 +4,9 @@
 
 ![jsr](./public/jsr.png)
 
-Live Demo : https://jsr.pages.dev/
+Live Demo on Cloudflare Pages : https://jsr.pages.dev/
+
+Live Demo on Vercel : https://jsrspa.vercel.app/
 
 
 ### About
@@ -182,9 +184,11 @@ For build settings of hosting  , build command = `npm run build` and build outpu
 1. [Cloudflare Pages ](https://pages.cloudflare.com/).
 More information about deploy on Cloudflare Pages , please visit   https://developers.cloudflare.com/pages/get-started/guide/ .
 
+2. [Vercel](https://vercel.com/) . Visit  https://vercel.com/docs/getting-started-with-vercel
+
 #### Other
 
-By my experience this package's routing is  not worked well on Vercel , try to fix later and for  other hosting are undergoing to test.
+Other hosting are undergoing to test.
 
 ## LICENCE
 [MIT](https://github.com/phothinmg/jsr/blob/main/LICENSE)
