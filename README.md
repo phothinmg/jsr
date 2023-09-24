@@ -2,6 +2,18 @@
 
 ![jsr](./public/jsr.png)
 
+- [JSR  -   SPA Template](#jsr------spa-template)
+    + [About](#about)
+    + [Getting Started](#getting-started)
+        * [Project Structure](#project-structure)
+        * [Basic Routing](#basic-routing)
+        * [Pages](#pages)
+        * [Blog Posts](#blog-posts)
+  * [Resources](#resources)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/' target="_blank" >Table of contents generated with markdown-toc</a></i></small>
+
+
 ### About
 A beginners project for a Vite-Powered  single page web application with HTML, CSS, Javascript (Routing, Template literals) and Markdown.
 
@@ -132,5 +144,11 @@ const blog = {
 export default blog
 ```
 
-More information for Markdown To HTML , visit https://md-block.verou.me/
+More information about MD-Block  , visit https://md-block.verou.me/
+
+## Resources
+
+- [Simple CSS](https://simplecss.org/)
+- [Simple javascript router](https://github.com/iMykhailychenko/simple-router)
+- [MD-Block](https://md-block.verou.me/)
 
