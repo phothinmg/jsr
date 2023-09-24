@@ -8,7 +8,7 @@ const home = `
 <br>
 <legend>Resources</legend>
 <ul>
-<li><a href="https://github.com/iMykhailychenko/simple-router" target="_blank" class="ha" >Simple javascript router with OOP </a></li>
+<li><a href="https://github.com/iMykhailychenko/simple-router" target="_blank" class="ha" >Simple javascript router </a></li>
 <br>
 <li><a href="https://md-block.verou.me/" target="_blank" class="ha" > Markdown to Html MD-Block </a></li>
 </ul>

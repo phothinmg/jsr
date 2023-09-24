@@ -1,6 +1,8 @@
 import { home,about } from "../page-blog/pages";
 import blog from "../page-blog/blog";
 
+// https://github.com/iMykhailychenko/simple-router
+
 class Router {
     /**
      * Initializes a new instance of the constructor.
