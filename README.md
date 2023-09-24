@@ -154,42 +154,17 @@ More information about MD-Block  , visit https://md-block.verou.me/
 #### Configuring Vite
 
 
-Visit https://vitejs.dev/config/ .
-
-Example 
-
-```javascript
-import { defineConfig } from 'vite';
-// https://vitejs.dev/config/
-export default defineConfig({
-	plugins: [],
-	build: {
-		sourcemap: true,
-		minify: true ,
-		manifest: true,
-		
-		
-	  },
-	
-});
-
-```
-
-
-For build settings of hosting  , build command = `npm run build` and build output directory = `/dist`.
-
-
+https://vitejs.dev/config/ .
 
 
 
 #### Hosting 
 
-1. [Cloudflare Pages ](https://pages.cloudflare.com/).
-More information about deploy on Cloudflare Pages , please visit   https://developers.cloudflare.com/pages/get-started/guide/ .
+1. [Cloudflare Pages ](https://pages.cloudflare.com/).  Documentation : https://developers.cloudflare.com/pages/get-started/guide/ .
 
-2. [Vercel](https://vercel.com/) . Visit  https://vercel.com/docs/getting-started-with-vercel
+2. [Vercel](https://vercel.com/) .   Documentation :  https://vercel.com/docs/getting-started-with-vercel
 
-3. [Netlify](https://www.netlify.com/)  .  Visit   https://docs.netlify.com/
+3. [Netlify](https://www.netlify.com/)  .   Documentation :   https://docs.netlify.com/
 
 
 
