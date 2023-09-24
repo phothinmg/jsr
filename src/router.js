@@ -1,7 +1,7 @@
 import { home,about } from "../page-blog/pages";
 import blog from "../page-blog/blog";
 
-// https://github.com/iMykhailychenko/simple-router
+// Router code are originally from https://github.com/iMykhailychenko/simple-router, edited by me.
 
 class Router {
     /**
@@ -25,6 +25,11 @@ class Router {
         element.innerHTML = '';
         element.insertAdjacentHTML('beforeend',this.html);
     }
+    /**
+     * Change the route to a new pathname.
+     *
+     * @param {string} pathname - The new pathname to navigate to.
+     */
     changeRoute(pathname) {
       window.history.pushState({}, pathname, window.location.origin + pathname);
       Pages[pathname].render();
@@ -34,6 +39,11 @@ class Router {
         Pages[this.pathname].render();
       });
     }
+    /**
+     * Handles the click event for each link in the links array.
+     *
+     * @param {Event} event - The click event.
+     */
     event() {
       this.links.forEach((link) => {
         link.addEventListener('click', (event) => {
