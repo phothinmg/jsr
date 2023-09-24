@@ -20,7 +20,7 @@ const home = `
 <br><hr>
 <br>
 
-<p class="fp">Generated with HTML , CSS , Javascript and Markdown.Power by <a class="fp" href="https://vitejs.dev/" target="_blank"> Vite</a>.  Host on <a class="fp" href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a>.</p>
+<p class="fp">Generated with HTML , CSS , Javascript and Markdown.Powered by <a class="fp" href="https://vitejs.dev/" target="_blank"> Vite</a>.  Hosted on <a class="fp" href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a>.</p>
 
 <br><hr>
 <br>
