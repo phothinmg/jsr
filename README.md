@@ -6,15 +6,14 @@
 
 Live Demo : https://jsr.pages.dev/
 
-
-
-
-
+---
 
 
 
 ### About
 A beginners project for a Vite-Powered  single page web application with HTML, CSS, Javascript (Routing, Template literals) and Markdown.
+
+---
 
 
 
@@ -22,9 +21,11 @@ A beginners project for a Vite-Powered  single page web application with HTML, C
 
 ### Getting Started
 
-`git clone https://github.com/phothinmg/jsr`
+`git clone https://github.com/phothinmg/jsr
 
 `cd jsr`
+
+`npm install`
 
 `npm run dev`
 
