@@ -46,7 +46,7 @@ import blog from "../page-blog/blog";
 // import yours 
 
 class Router {
-//    ***original router code 
+//    ***Router code 
 }
 
 //  Add your pages and posts 
@@ -64,7 +64,7 @@ const Pages = {
 ```
 
 
-Original router code from https://github.com/iMykhailychenko/simple-router edited by me.
+Router code are originally from https://github.com/iMykhailychenko/simple-router, edited by me.
 
 
 
