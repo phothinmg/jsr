@@ -153,7 +153,6 @@ More information about MD-Block  , visit https://md-block.verou.me/
 
 #### Configuring Vite
 
-Please check what your need for deployment ie. sourcemap , minified , manifest something like that.
 
 Visit https://vitejs.dev/config/ .
 
@@ -175,6 +174,8 @@ export default defineConfig({
 });
 
 ```
+
+
 For build settings of hosting  , build command = `npm run build` and build output directory = `/dist`.
 
 
