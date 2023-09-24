@@ -146,8 +146,43 @@ More information about MD-Block  , visit https://md-block.verou.me/
 - [MD-Block](https://md-block.verou.me/)
 
 ## Deployment
-Recommend hosting is [Cloudflare Pages ](https://pages.cloudflare.com/).
+
+#### Configuring Vite
+
+Please check what your need for deployment ie. sourcemap , minified , manifest something like that.
+
+Visit https://vitejs.dev/config/ .
+
+Example 
+
+```javascript
+import { defineConfig } from 'vite';
+// https://vitejs.dev/config/
+export default defineConfig({
+	plugins: [],
+	build: {
+		sourcemap: true,
+		minify: true ,
+		manifest: true,
+		
+		
+	  },
+	
+});
+
+```
+For build settings of hosting  , build command = `npm run build` and build output directory = `/dist`.
+
+
+
+
+
+#### Recommended hosting 
+
+1. [Cloudflare Pages ](https://pages.cloudflare.com/).
 More information about deploy on Cloudflare Pages , please visit   https://developers.cloudflare.com/pages/get-started/guide/ .
+
+#### Other
 
 By my experience this package's routing is  not worked well on Vercel , try to fix later and for  other hosting are undergoing to test.
 
