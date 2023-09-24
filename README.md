@@ -181,16 +181,16 @@ For build settings of hosting  , build command = `npm run build` and build outpu
 
 
 
-#### Recommended hosting 
+#### Hosting 
 
 1. [Cloudflare Pages ](https://pages.cloudflare.com/).
 More information about deploy on Cloudflare Pages , please visit   https://developers.cloudflare.com/pages/get-started/guide/ .
 
 2. [Vercel](https://vercel.com/) . Visit  https://vercel.com/docs/getting-started-with-vercel
 
-#### Other
+3. [Netlify](https://www.netlify.com/)  .  Visit   https://docs.netlify.com/
 
-Other hosting are undergoing to test.
+
 
 ## LICENCE
 [MIT](https://github.com/phothinmg/jsr/blob/main/LICENSE)
