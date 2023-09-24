@@ -8,8 +8,17 @@ Live Demo : https://jsr.pages.dev/
 
 
 
+
+
+
+
+
 ### About
 A beginners project for a Vite-Powered  single page web application with HTML, CSS, Javascript (Routing, Template literals) and Markdown.
+
+
+
+
 
 ### Getting Started
 
@@ -23,26 +32,9 @@ Web app on :
 
 [http://localhost:5173/](http://localhost:5173/)
 
-##### Project Structure
 
-```
-.
-├── vit.config.js
-├── package.json
-├── package-lock.json
-├── index.html
-├── .gitingore
-├── src
-│   ├── router.js
-│   └── jsr.css
-├── public
-│   └── *
-└── page-blog
-    ├── pages.js
-    └── blog.js
-```
 
-##### Basic Routing
+##### Routing
 
 `src/router.js`
 
