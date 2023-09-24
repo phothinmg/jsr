@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Mozilla
-
 ![jsr](./public/jsr.png)
 
 Live Demo : https://jsr.pages.dev/
