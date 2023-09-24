@@ -2,16 +2,7 @@
 
 ![jsr](./public/jsr.png)
 
-- [JSR  -   SPA Template](#jsr------spa-template)
-    + [About](#about)
-    + [Getting Started](#getting-started)
-        * [Project Structure](#project-structure)
-        * [Basic Routing](#basic-routing)
-        * [Pages](#pages)
-        * [Blog Posts](#blog-posts)
-  * [Resources](#resources)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/' target="_blank" >Table of contents generated with markdown-toc</a></i></small>
+Live Demo : https://jsr.pages.dev/
 
 
 ### About
@@ -151,4 +142,11 @@ More information about MD-Block  , visit https://md-block.verou.me/
 - [Simple CSS](https://simplecss.org/)
 - [Simple javascript router](https://github.com/iMykhailychenko/simple-router)
 - [MD-Block](https://md-block.verou.me/)
+
+## Deployment
+Recommend hosting is [Cloudflare Pages ](https://pages.cloudflare.com/).
+More information about deploy on Cloudflare Pages , please visit   https://developers.cloudflare.com/pages/get-started/guide/ .
+
+By my experience this package's routing is  not worked well on Vercel , try to fix later and for  other hosting are undergoing to test.
+
 
