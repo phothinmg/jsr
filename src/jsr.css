@@ -100,7 +100,7 @@ ol{
     font-size: medium;
     font-weight: bold;
   }
-  /* pre{
+  pre{
     background-color: var(--pre-bg);
     border: 2px solid var(--text-light);
     border-radius: var(--standard-border-radius);
@@ -113,7 +113,7 @@ ol{
       font-size: 14px;
       font-weight: bold;
     }
-} */
+}
 legend{
     color: var(--text-light);
     font-size: 20px;
