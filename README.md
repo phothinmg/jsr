@@ -4,9 +4,11 @@
 
 ![jsr](./public/jsr.png)
 
-Live Demo on Cloudflare Pages : https://jsr.pages.dev/
+Live Demo on Cloudflare : https://jsr.pages.dev/
 
 Live Demo on Vercel : https://jsrspa.vercel.app/
+
+Live Demo on Netlify : https://jsrspa.netlify.app/
 
 
 ### About
