@@ -21,7 +21,7 @@ A beginners project for a Vite-Powered  single page web application with HTML, C
 
 ### Getting Started
 
-`git clone https://github.com/phothinmg/jsr
+`git clone https://github.com/phothinmg/jsr`
 
 `cd jsr`
 
