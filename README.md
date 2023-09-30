@@ -158,7 +158,7 @@ https://vitejs.dev/config/ .
 
 
 
-## LICENCE
+## LICENSE
 [MIT](https://github.com/phothinmg/jsr/blob/main/LICENSE)
 
 
