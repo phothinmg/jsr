@@ -5,7 +5,7 @@ frontend:
     build:
       commands: []
   artifacts:
-    baseDirectory: dist
+    baseDirectory: '.'
     files:
       - '**/*'
   cache:
