@@ -21,13 +21,23 @@ A beginners project for a Vite-Powered  single page web application with HTML, C
 
 ### Getting Started
 
-`git clone https://github.com/phothinmg/jsr`
+```bash
+git clone https://github.com/phothinmg/jsr.git
+```
+```bash
+cd jsr
+```
 
-`cd jsr`
+```bash
+npm install
+```
 
-`npm install`
+```bash
+npm run dev
 
-`npm run dev`
+```
+
+
 
 Web app on :
 
@@ -58,8 +68,6 @@ const Pages = {
   "/blog/postTwo": new Router(blog.postTwo),
   "/blog/md": new Router(blog.md),
 };
-
-
 ```
 
 
